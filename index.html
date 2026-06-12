@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- Mirrored from nathieleejean.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jun 2025 22:08:12 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa!</title>
+    <style>
+        body {
+            background-color: #000;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        
+        .btn-surpresa {
+            padding: 15px 30px;
+            font-size: 1.5em;
+            background-color: #ff0066;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            animation: pulsar 1.5s infinite;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            font-family: 'Arial', sans-serif;
+            transition: all 0.3s ease;
+        }
+
+        @keyframes pulsar {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .btn-surpresa:hover {
+            animation: none;
+            transform: scale(1.1);
+            background-color: #ff1493;
+        }
+
+        @media (max-width: 480px) {
+            .btn-surpresa {
+                padding: 12px 24px;
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <a href='pagina.html'>
+        <button class="btn-surpresa">Surpresa! 🎉</button>
+    </a>
+</body>
+
+<!-- Mirrored from nathieleejean.netlify.app/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jun 2025 22:08:12 GMT -->
+</html>
